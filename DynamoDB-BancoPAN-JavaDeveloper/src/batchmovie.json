@@ -1,0 +1,39 @@
+{
+    "Movie": [
+        {
+            "PutRequest": {
+                "Item": {
+                  "Title": {"S": "The Shawshank Redemption"},
+                  "Director": {"S": "Frank Darabont"},
+                  "Starred": {"S": "Morgan Freeman"},
+                  "ReleaseYear": {"S": "1994"},
+                  "Genero": {"S": "Drama"}                 
+                }
+            }
+        },
+        {
+            "PutRequest": {
+
+              "Item": {
+                "Title": {"S": "The Godfather"},
+                "Director": {"S": "Francis Ford Copola"},
+                "Starred": {"S": "Al Paccino"},
+                "ReleaseYear": {"S": "1972"},
+                "Genero": {"S": "Crime, Mafia"}
+              }
+                
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Title": {"S": "The Dark Knight"},
+                    "Director": {"S": "Christopher Nolan"},
+                    "Starred": {"S": "Christian Bale"},
+                    "ReleaseYear": {"S": "2008"},
+                    "Genero": {"S": "Action & Drama"}
+                }
+            }
+        }
+      ]
+}
